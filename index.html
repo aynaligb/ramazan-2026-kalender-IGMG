@@ -1,101 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>Ramazan 2026</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'EB Garamond', serif;
-    background-color: #0b2e1e;
-    color: #ffffff;
-    text-align: center;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 100px 20px;
-}
-
-h1 {
-    font-family: 'Amiri', serif;
-    font-size: 56px;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-}
-
-.divider {
-    width: 120px;
-    height: 2px;
-    background-color: #ffffff;
-    margin: 30px auto 40px auto;
-}
-
-.subtitle {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 60px;
-    color: #e8f5ec;
-}
-
-.button {
-    display: inline-block;
-    padding: 18px 60px;
-    background-color: #ffffff;
-    color: #0b2e1e;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-.button:hover {
-    background-color: #e6f2ea;
-}
-
-.footer {
-    margin-top: 120px;
-    padding: 30px;
-    font-size: 15px;
-    opacity: 0.8;
-}
-
-@media (max-width: 600px) {
-    h1 { font-size: 38px; }
-    .subtitle { font-size: 18px; }
-    .button { padding: 16px 40px; }
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102e27">
+  <meta name="description" content="Ramazan 2026 in Berlin: alle Imsak- und Iftar-Zeiten nach IGMG, besondere Tage und ein Kalender zum Abonnieren oder Herunterladen.">
+  <title>Ramazan 2026 · Berlin — Zeit für das Wesentliche</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
-
 <body>
-
-<div class="container">
-
-<h1>Ramazan 2026</h1>
-
-<div class="divider"></div>
-
-<div class="subtitle">
-Imsak · Iftar · Kadir Gecesi · Arefe · Bayram<br>
-Abonnierbarer Kalender für iPhone, Android & Outlook
-</div>
-
-<a class="button"
-   href="webcal://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/Ramazan_2026_Berlin_IGMG.ics">
-   Kalender abonnieren
-</a>
-
-<div class="footer">
-Ramazan 2026 – Berlin
-</div>
-
-</div>
-
+  <a class="skip" href="#zeiten">Zum Tagesplan</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Ramazan Berlin Startseite"><span class="brand-mark" aria-hidden="true">☾</span><span>RAMAZAN<span class="brand-sub">BERLIN · 1447 / 2026</span></span></a>
+    <nav aria-label="Hauptnavigation"><a href="#zeiten">Fastenzeiten</a><a href="#besondere-tage">Besondere Tage</a><a class="nav-cta" href="#abonnieren">Kalender hinzufügen <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✧</span> 19. FEBRUAR — 19. MÄRZ 2026</p>
+        <h1 id="hero-title">Zeit für das<br><em>Wesentliche.</em></h1>
+        <p class="hero-lead">Ein Monat der Besinnung, der Gemeinschaft und des Teilens. Dein Begleiter durch den Ramazan in Berlin.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#abonnieren">In deinen Kalender <span aria-hidden="true">↗</span></a><a class="text-link" href="#zeiten">Fastenzeiten ansehen <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-meta">BERLIN <span>52.52° N / 13.40° E</span><span>ZEITEN NACH IGMG</span></p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="arch"><div class="arch-inner"></div><div class="orb"></div><div class="moon"></div><span class="star star-one">✧</span><span class="star star-two">✦</span><span class="star star-three">✧</span><div class="horizon horizon-one"></div><div class="horizon horizon-two"></div><div class="horizon horizon-three"></div><div class="art-inscription" lang="ar" dir="rtl">رمضان كريم</div><div class="art-caption">RAMAZAN MÜBAREK OLSUN</div></div>
+        <span class="art-edition">DIE BERLINER AUSGABE — 2026</span>
+      </div>
+    </section>
+    <section class="facts wrap" aria-label="Kalender auf einen Blick">
+      <div><span class="fact-number">29</span><span>Fastentage<br><small>19. Februar – 19. März</small></span></div>
+      <div><span class="fact-number">16<span class="fact-dot">.</span></span><span>Kadir Gecesi<br><small>März 2026</small></span></div>
+      <div><span class="fact-number">20<span class="fact-dot">.</span></span><span>Ramazan Bayramı<br><small>Erster Festtag im März</small></span></div>
+      <a href="https://berlin-igmg.de/wp-content/uploads/2026/01/Berlin_igmg_imsakiye_2026-1086x1536.png" target="_blank" rel="noopener noreferrer">IGMG-Originalkalender <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="schedule section wrap" id="zeiten" aria-labelledby="schedule-title">
+      <div class="section-heading"><div><p class="eyebrow">IM EINKLANG MIT DEM TAG</p><h2 id="schedule-title">Von der Dämmerung<br>bis zum Abend.</h2></div><p>Imsak und Iftar, Tag für Tag.<br>Alle Uhrzeiten gelten für Berlin.</p></div>
+      <p class="edition-note" id="edition-note">Ausgabe 2026 · 19. Februar bis 19. März.</p>
+      <div class="day-browser" id="day-browser" hidden>
+        <div class="day-top"><span id="day-label" class="eyebrow">1. FASTENTAG</span><div class="day-controls"><button class="round-button" id="previous-day" aria-label="Vorheriger Fastentag">←</button><label class="sr-only" for="day-select">Fastentag auswählen</label><select id="day-select"></select><button class="round-button" id="next-day" aria-label="Nächster Fastentag">→</button></div></div>
+        <div class="day-times" aria-live="polite" aria-atomic="true"><div><span class="time-symbol" aria-hidden="true">☾</span><span class="time-caption">IMSAK <small>Fastenbeginn</small></span><strong id="imsak-time">05:21</strong></div><span class="day-line" aria-hidden="true"></span><div><span class="time-symbol sunset" aria-hidden="true">☀</span><span class="time-caption">İFTAR <small>Fastenbrechen</small></span><strong id="iftar-time">17:32</strong></div></div>
+        <div class="day-bottom"><span id="fast-duration">12 Stunden 11 Minuten</span><span>Europe/Berlin · MEZ</span></div>
+      </div>
+      <div class="table-heading"><h3>Der ganze Monat</h3><div class="month-filters" id="month-filters" hidden role="group" aria-label="Monat filtern"><button data-month="all" aria-pressed="true">Alle Tage</button><button data-month="02" aria-pressed="false">Februar</button><button data-month="03" aria-pressed="false">März</button></div></div>
+      <div class="table-scroll"><table><caption class="sr-only">Fastenzeiten für Berlin, Ramazan 2026, nach IGMG</caption><thead><tr><th scope="col">TAG</th><th scope="col">DATUM</th><th scope="col">IMSAK</th><th scope="col">İFTAR</th><th scope="col" class="table-note">BESONDERHEIT</th></tr></thead><tbody id="times-body">
+      <!-- TIMES:START -->
+<tr data-date="2026-02-19" data-imsak="05:21" data-iftar="17:32"><td>01</td><td>Do. 19.02.</td><td>05:21</td><td>17:32</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-20" data-imsak="05:19" data-iftar="17:34"><td>02</td><td>Fr. 20.02.</td><td>05:19</td><td>17:34</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-21" data-imsak="05:17" data-iftar="17:36"><td>03</td><td>Sa. 21.02.</td><td>05:17</td><td>17:36</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-22" data-imsak="05:15" data-iftar="17:38"><td>04</td><td>So. 22.02.</td><td>05:15</td><td>17:38</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-23" data-imsak="05:13" data-iftar="17:40"><td>05</td><td>Mo. 23.02.</td><td>05:13</td><td>17:40</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-24" data-imsak="05:11" data-iftar="17:42"><td>06</td><td>Di. 24.02.</td><td>05:11</td><td>17:42</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-25" data-imsak="05:09" data-iftar="17:44"><td>07</td><td>Mi. 25.02.</td><td>05:09</td><td>17:44</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-26" data-imsak="05:07" data-iftar="17:46"><td>08</td><td>Do. 26.02.</td><td>05:07</td><td>17:46</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-27" data-imsak="05:05" data-iftar="17:47"><td>09</td><td>Fr. 27.02.</td><td>05:05</td><td>17:47</td><td class="table-note"></td></tr>
+<tr data-date="2026-02-28" data-imsak="05:02" data-iftar="17:49"><td>10</td><td>Sa. 28.02.</td><td>05:02</td><td>17:49</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-01" data-imsak="05:00" data-iftar="17:51"><td>11</td><td>So. 01.03.</td><td>05:00</td><td>17:51</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-02" data-imsak="04:58" data-iftar="17:53"><td>12</td><td>Mo. 02.03.</td><td>04:58</td><td>17:53</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-03" data-imsak="04:56" data-iftar="17:55"><td>13</td><td>Di. 03.03.</td><td>04:56</td><td>17:55</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-04" data-imsak="04:53" data-iftar="17:57"><td>14</td><td>Mi. 04.03.</td><td>04:53</td><td>17:57</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-05" data-imsak="04:51" data-iftar="17:58"><td>15</td><td>Do. 05.03.</td><td>04:51</td><td>17:58</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-06" data-imsak="04:49" data-iftar="18:00"><td>16</td><td>Fr. 06.03.</td><td>04:49</td><td>18:00</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-07" data-imsak="04:46" data-iftar="18:02"><td>17</td><td>Sa. 07.03.</td><td>04:46</td><td>18:02</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-08" data-imsak="04:44" data-iftar="18:04"><td>18</td><td>So. 08.03.</td><td>04:44</td><td>18:04</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-09" data-imsak="04:42" data-iftar="18:06"><td>19</td><td>Mo. 09.03.</td><td>04:42</td><td>18:06</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-10" data-imsak="04:39" data-iftar="18:07"><td>20</td><td>Di. 10.03.</td><td>04:39</td><td>18:07</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-11" data-imsak="04:37" data-iftar="18:09"><td>21</td><td>Mi. 11.03.</td><td>04:37</td><td>18:09</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-12" data-imsak="04:34" data-iftar="18:11"><td>22</td><td>Do. 12.03.</td><td>04:34</td><td>18:11</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-13" data-imsak="04:32" data-iftar="18:13"><td>23</td><td>Fr. 13.03.</td><td>04:32</td><td>18:13</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-14" data-imsak="04:29" data-iftar="18:15"><td>24</td><td>Sa. 14.03.</td><td>04:29</td><td>18:15</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-15" data-imsak="04:27" data-iftar="18:16"><td>25</td><td>So. 15.03.</td><td>04:27</td><td>18:16</td><td class="table-note"></td></tr>
+<tr class="special-row" data-date="2026-03-16" data-imsak="04:24" data-iftar="18:18"><td>26</td><td>Mo. 16.03.</td><td>04:24</td><td>18:18</td><td class="table-note">Kadir Gecesi</td></tr>
+<tr data-date="2026-03-17" data-imsak="04:21" data-iftar="18:20"><td>27</td><td>Di. 17.03.</td><td>04:21</td><td>18:20</td><td class="table-note"></td></tr>
+<tr data-date="2026-03-18" data-imsak="04:19" data-iftar="18:22"><td>28</td><td>Mi. 18.03.</td><td>04:19</td><td>18:22</td><td class="table-note"></td></tr>
+<tr class="special-row" data-date="2026-03-19" data-imsak="04:16" data-iftar="18:24"><td>29</td><td>Do. 19.03.</td><td>04:16</td><td>18:24</td><td class="table-note">Arefe</td></tr>
+<!-- TIMES:END -->
+      </tbody></table></div>
+      <p class="source-note">Alle 58 Fastenzeiten mit dem <a href="https://berlin-igmg.de/wp-content/uploads/2026/01/Berlin_igmg_imsakiye_2026-1086x1536.png" target="_blank" rel="noopener noreferrer">IGMG-Kalender für Berlin</a> abgeglichen. Zeitzone: Europe/Berlin. <a href="#quelle">Mehr zur Quelle ↗</a></p>
+    </section>
+    <section class="special-section" id="besondere-tage" aria-labelledby="special-title"><div class="wrap section">
+      <div class="section-heading"><div><p class="eyebrow">MOMENTE, DIE BLEIBEN</p><h2 id="special-title">Besondere Tage.</h2></div><p>Innehalten. Gemeinsam fasten.<br>Und zusammen feiern.</p></div>
+      <div class="special-grid">
+        <article class="special-card"><p class="special-date">16 <span>MÄRZ · MONTAG</span></p><span class="special-icon" aria-hidden="true">✧</span><h3>Kadir Gecesi</h3><p>Die Nacht der Bestimmung. Der IGMG-Kalender markiert den 16. März; die Nacht beginnt am Abend.</p><span class="special-tag">BESINNUNG & GEBET</span></article>
+        <article class="special-card"><p class="special-date">19 <span>MÄRZ · DONNERSTAG</span></p><span class="special-icon" aria-hidden="true">☾</span><h3>Arefe</h3><p>Der letzte Fasttag. Ein Tag der Vorbereitung, bevor am nächsten Morgen das Fest beginnt.</p><span class="special-tag">LETZTER FASTTAG</span></article>
+        <article class="special-card featured"><p class="special-date">20–22 <span>MÄRZ · FREITAG BIS SONNTAG</span></p><span class="special-icon" aria-hidden="true">✺</span><h3>Ramazan Bayramı</h3><p>Zeit für Begegnungen und gemeinsame Freude. Der erste Festtag ist laut IGMG am 20. März.</p><span class="special-tag">DAS FEST DES FASTENBRECHENS</span></article>
+      </div>
+      <p class="prayer-note"><strong>Zum Bayram-Gebet:</strong> Im Kalender sind 07:24 Uhr und ein Hinweis am Vorabend hinterlegt. Diese Uhrzeit stammt aus der bisherigen Projektdatei und ist in der IGMG-Quelle nicht belegt. Bitte bei deiner Moschee bestätigen.</p>
+    </div></section>
+    <section class="subscribe section wrap" id="abonnieren" aria-labelledby="subscribe-title">
+      <div class="subscribe-intro"><p class="eyebrow">DEIN MONAT. DEIN KALENDER.</p><h2 id="subscribe-title">Einmal hinzufügen.<br>Jeden Tag dabei.</h2><p>Fastenzeiten und besondere Tage in deiner Kalender-App. Als dauerhaftes Abo mit geprüften Jahresausgaben oder als Datei zum einmaligen Import.</p><a class="button button-dark" href="webcal://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/berlin-ramazan.ics">Kalender abonnieren <span aria-hidden="true">↗</span></a><a class="download-link" href="Ramazan_2026_Berlin_IGMG.ics" download>Ausgabe 2026 herunterladen <span aria-hidden="true">↓</span></a><p class="subscribe-small">Imsak: Erinnerung 30 Minuten vorher.<br>Iftar: Erinnerung zum Beginn. Die App kann Abo-Erinnerungen einschränken; bitte nach dem Einrichten prüfen.</p></div>
+      <div class="instructions">
+        <h3>So kommt er auf dein Gerät</h3>
+        <details open><summary><span><span class="platform-number">01</span> iPhone, iPad & Mac</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="details-body"><p>Nutze „Kalender abonnieren“. Falls sich deine App nicht öffnet:</p><ol><li>Kopiere unten die Kalenderadresse.</li><li>iPhone/iPad: Kalender → Kalender → Hinzufügen → Kalenderabonnement hinzufügen.</li><li>Adresse einfügen, suchen und hinzufügen. Auf dem Mac: Ablage → Neues Kalenderabonnement.</li></ol><a href="https://support.apple.com/de-de/102301" target="_blank" rel="noopener noreferrer">Anleitung von Apple ↗</a></div></details>
+        <details><summary><span><span class="platform-number">02</span> Android & Google Kalender</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="details-body"><ol><li>Öffne Google Kalender im Browser auf einem Computer.</li><li>Neben „Weitere Kalender“ auf + klicken und „Per URL“ wählen.</li><li>Die unten kopierte Adresse einfügen und den Kalender hinzufügen. Danach in deiner Android-App im selben Google-Konto einblenden.</li></ol><p>Das Hinzufügen per URL ist in der mobilen Google-Kalender-App nicht verfügbar.</p><a href="https://support.google.com/calendar/answer/37100?hl=de" target="_blank" rel="noopener noreferrer">Anleitung von Google ↗</a></div></details>
+        <details><summary><span><span class="platform-number">03</span> Outlook</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="details-body"><ol><li>In Outlook im Web den Kalender öffnen.</li><li>„Kalender hinzufügen“ → „Vom Web abonnieren“ wählen.</li><li>Kalenderadresse einfügen, einen Namen vergeben und hinzufügen.</li></ol><p>Alternativ die ICS-Datei herunterladen und importieren. Ein Dateiimport erhält keine späteren Korrekturen.</p><a href="https://support.microsoft.com/de-de/outlook/import-or-subscribe-to-a-calendar-in-outlook-com-or-outlook-on-the-web" target="_blank" rel="noopener noreferrer">Anleitung von Microsoft ↗</a></div></details>
+        <div class="copy-box"><label for="calendar-url">KALENDERADRESSE FÜR DAS ABONNEMENT</label><div><input id="calendar-url" type="text" readonly value="https://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/berlin-ramazan.ics"><button id="copy-url" hidden>Kopieren</button></div><p id="copy-status" role="status" aria-live="polite">Zum manuellen Kopieren die Adresse markieren.</p></div>
+      </div>
+    </section>
+    <section class="source-section wrap" id="quelle" aria-labelledby="source-title"><div><p class="eyebrow">TRANSPARENT & NACHVOLLZIEHBAR</p><h2 id="source-title">Die Zeiten. Die Quelle.</h2></div><div><p>Grundlage ist die <a href="https://berlin-igmg.de/aktuell/" target="_blank" rel="noopener noreferrer">Ramazan İmsakiyesi 1447 / 2026 der IGMG Berlin</a>. Alle 29 Imsak- und Iftar-Zeitpaare sowie die Daten für Kadir Gecesi, Arefe und den ersten Bayram-Tag wurden mit dem veröffentlichten Kalender abgeglichen.</p><p>Dies ist ein privates Kalenderprojekt und kein offizieller Auftritt der IGMG. Ausgabe 2026; weitere Jahre werden erst mit einer belegten Quelle ergänzt. Das dauerhafte Abo übernimmt Korrekturen und neue Jahresausgaben, sobald die geprüften Zeiten veröffentlicht sind. Die Aktualisierungsdauer bestimmt deine Kalender-App. Wer bisher die 2026-Datei abonniert hat, muss einmalig zur neuen Kalenderadresse wechseln; danach bleibt sie jedes Jahr gleich.</p><p class="source-date">QUELLENABGLEICH · 21. OKTOBER 2026 <a href="https://berlin-igmg.de/wp-content/uploads/2026/01/Berlin_igmg_imsakiye_2026-1086x1536.png" target="_blank" rel="noopener noreferrer">Original ansehen ↗</a></p></div></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">☾</span><span>RAMAZAN<span class="brand-sub">BERLIN · 2026</span></span></a><p>Ein bewusster Monat. Ein gemeinsamer Rhythmus.</p><a href="https://github.com/aynaligb/ramazan-2026-kalender-IGMG" target="_blank" rel="noopener noreferrer">Projekt auf GitHub ↗</a></footer>
 </body>
 </html>

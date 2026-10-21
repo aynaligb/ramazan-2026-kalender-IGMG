@@ -1,0 +1,2 @@
+# iCalendar requires literal CRLF; do not normalize it on checkout or commit.
+*.ics -text whitespace=-blank-at-eol

@@ -1,0 +1,266 @@
+{
+  "year": 2026,
+  "hijriYear": 1447,
+  "city": "Berlin",
+  "timezone": "Europe/Berlin",
+  "updated": "2026-10-21",
+  "source": {
+    "name": "IGMG Berlin · Ramazan İmsakiyesi 1447 / 2026",
+    "url": "https://berlin-igmg.de/aktuell/",
+    "document": "https://berlin-igmg.de/wp-content/uploads/2026/01/Berlin_igmg_imsakiye_2026-1086x1536.png",
+    "checked": "2026-10-21",
+    "scope": "Alle 29 Imsak- und Iftar-Zeitpaare visuell mit dem veröffentlichten IGMG-Kalender abgeglichen. Kadir Gecesi, Arefe und erster Bayram-Tag ebenfalls belegt. Die Gebetszeit 07:24 ist nicht belegt."
+  },
+  "days": [
+    {
+      "date": "2026-02-19",
+      "imsak": "05:21",
+      "iftar": "17:32",
+      "imsakUid": "527a562a-42b4-43a5-a2ab-4232421adc64",
+      "iftarUid": "88f390ae-a687-4e6f-a523-cd5715e6c600"
+    },
+    {
+      "date": "2026-02-20",
+      "imsak": "05:19",
+      "iftar": "17:34",
+      "imsakUid": "0dc0e327-c989-4616-8149-0330abd46da1",
+      "iftarUid": "87cc68a2-7e5d-4f8c-9a87-3dbb90336c47"
+    },
+    {
+      "date": "2026-02-21",
+      "imsak": "05:17",
+      "iftar": "17:36",
+      "imsakUid": "b09f72b3-78d7-4ff7-883d-8ee831376cc8",
+      "iftarUid": "0b032e0a-b515-46ff-97db-57824a27ad56"
+    },
+    {
+      "date": "2026-02-22",
+      "imsak": "05:15",
+      "iftar": "17:38",
+      "imsakUid": "4d6bee4d-fa4a-450b-ab2a-0248b528454b",
+      "iftarUid": "3355f79f-7c5f-4f81-9ec1-410392313f92"
+    },
+    {
+      "date": "2026-02-23",
+      "imsak": "05:13",
+      "iftar": "17:40",
+      "imsakUid": "dd90fcf6-d912-46a8-9a1f-4c335fee0be7",
+      "iftarUid": "9d6b75b4-2ff4-41b5-bd13-cdca618423ec"
+    },
+    {
+      "date": "2026-02-24",
+      "imsak": "05:11",
+      "iftar": "17:42",
+      "imsakUid": "6b49ff00-c17c-4a58-bac2-a996285f827a",
+      "iftarUid": "15a0d201-a52b-4fae-9e1f-a825b64b83b8"
+    },
+    {
+      "date": "2026-02-25",
+      "imsak": "05:09",
+      "iftar": "17:44",
+      "imsakUid": "18b47164-a202-42a1-9e41-f2a0f714545e",
+      "iftarUid": "9b41012b-3110-427b-9e7d-ff6eb1195d2c"
+    },
+    {
+      "date": "2026-02-26",
+      "imsak": "05:07",
+      "iftar": "17:46",
+      "imsakUid": "f02492f3-a31e-469f-9ccd-b3ce39001e94",
+      "iftarUid": "6076eb73-7aeb-4075-9560-78f8fc9801ca"
+    },
+    {
+      "date": "2026-02-27",
+      "imsak": "05:05",
+      "iftar": "17:47",
+      "imsakUid": "a4cf1702-f0cb-429e-8565-c76246e8df15",
+      "iftarUid": "581da796-ef89-4468-8c94-ebc97b83513f"
+    },
+    {
+      "date": "2026-02-28",
+      "imsak": "05:02",
+      "iftar": "17:49",
+      "imsakUid": "84832818-85b1-4d44-be72-8cc344f75fd1",
+      "iftarUid": "9f317dc2-01be-4850-9e33-8f689b886dea"
+    },
+    {
+      "date": "2026-03-01",
+      "imsak": "05:00",
+      "iftar": "17:51",
+      "imsakUid": "206702cb-0847-4226-9cca-caef5ed6f709",
+      "iftarUid": "761ceac3-0ad7-48ec-916f-95841b57cccc"
+    },
+    {
+      "date": "2026-03-02",
+      "imsak": "04:58",
+      "iftar": "17:53",
+      "imsakUid": "779541c8-4e85-46cc-9b4c-007b6fbe2694",
+      "iftarUid": "077a7498-e130-4e9a-877b-98b826be8226"
+    },
+    {
+      "date": "2026-03-03",
+      "imsak": "04:56",
+      "iftar": "17:55",
+      "imsakUid": "c38c7020-70c8-43db-9dda-0e0ef7f582c9",
+      "iftarUid": "c1b1e329-4c34-40c3-92ae-ace3fce2e735"
+    },
+    {
+      "date": "2026-03-04",
+      "imsak": "04:53",
+      "iftar": "17:57",
+      "imsakUid": "224fe9a0-38e6-4e42-8557-5391f8d7410e",
+      "iftarUid": "18b4cbff-b41b-42bf-8b2a-d521f3ec9a3d"
+    },
+    {
+      "date": "2026-03-05",
+      "imsak": "04:51",
+      "iftar": "17:58",
+      "imsakUid": "9187d30d-1d40-44be-a01d-7787af58c22d",
+      "iftarUid": "767a65af-a364-4d23-b34b-bfbbaeb59128"
+    },
+    {
+      "date": "2026-03-06",
+      "imsak": "04:49",
+      "iftar": "18:00",
+      "imsakUid": "c265cbdb-0e8f-46d8-a7e0-ab7631f167e8",
+      "iftarUid": "665a7ac5-0b5b-4a50-b9e6-50d7df8b0d0d"
+    },
+    {
+      "date": "2026-03-07",
+      "imsak": "04:46",
+      "iftar": "18:02",
+      "imsakUid": "ed9e1084-9a89-4e09-9fe7-cfb2b6d6699f",
+      "iftarUid": "15a60c7f-b0f1-4582-9ce9-e1b04a148819"
+    },
+    {
+      "date": "2026-03-08",
+      "imsak": "04:44",
+      "iftar": "18:04",
+      "imsakUid": "6e50deff-70a4-4871-a8bb-52721c9186d7",
+      "iftarUid": "d7b3bb7a-ffda-4e11-95f7-cbd33674a5a6"
+    },
+    {
+      "date": "2026-03-09",
+      "imsak": "04:42",
+      "iftar": "18:06",
+      "imsakUid": "53ed4ea9-ae7a-434d-a825-4a034e75dc79",
+      "iftarUid": "9082e975-ec91-4be5-810f-349be47a3ab6"
+    },
+    {
+      "date": "2026-03-10",
+      "imsak": "04:39",
+      "iftar": "18:07",
+      "imsakUid": "4ce7beec-574b-4e5e-aad8-21b6fec158a9",
+      "iftarUid": "e9f9a150-7eda-405e-8390-ea649b177c7b"
+    },
+    {
+      "date": "2026-03-11",
+      "imsak": "04:37",
+      "iftar": "18:09",
+      "imsakUid": "2b9ef61a-e110-44e9-94ea-7a3e7eb30d9c",
+      "iftarUid": "a9773037-6027-406b-b2ab-319c19c049bf"
+    },
+    {
+      "date": "2026-03-12",
+      "imsak": "04:34",
+      "iftar": "18:11",
+      "imsakUid": "0788e392-b660-4811-888d-6597198728fc",
+      "iftarUid": "e3800707-ec51-4f6c-972d-2f5d918f4d15"
+    },
+    {
+      "date": "2026-03-13",
+      "imsak": "04:32",
+      "iftar": "18:13",
+      "imsakUid": "bf798081-10f2-4a20-9f2c-4d4f4ab7809f",
+      "iftarUid": "f60d921c-c490-42e4-af2c-620fe4fdee18"
+    },
+    {
+      "date": "2026-03-14",
+      "imsak": "04:29",
+      "iftar": "18:15",
+      "imsakUid": "ed51bda3-fd39-4eac-a4e9-3ddbc752df5f",
+      "iftarUid": "b925301c-a779-405b-abec-e3e8470bcd67"
+    },
+    {
+      "date": "2026-03-15",
+      "imsak": "04:27",
+      "iftar": "18:16",
+      "imsakUid": "cd5229b9-f493-486a-b7ba-2d78618e1324",
+      "iftarUid": "7bcb5ab9-07a9-46de-a14b-39e12e72b159"
+    },
+    {
+      "date": "2026-03-16",
+      "imsak": "04:24",
+      "iftar": "18:18",
+      "imsakUid": "648efdb6-698d-4a55-aba1-793441726fa1",
+      "iftarUid": "ea0f8484-6afa-4871-a0d6-10194471a258"
+    },
+    {
+      "date": "2026-03-17",
+      "imsak": "04:21",
+      "iftar": "18:20",
+      "imsakUid": "9a68f9f2-cb48-45fd-be83-006ec4e9d8dd",
+      "iftarUid": "2757fefb-88f6-4318-8439-8fe53e0d3148"
+    },
+    {
+      "date": "2026-03-18",
+      "imsak": "04:19",
+      "iftar": "18:22",
+      "imsakUid": "db6e41a7-72ff-4885-b4d1-7fecba10bdb6",
+      "iftarUid": "2b1a0196-99d1-4f71-bedb-cca7256cbf1d"
+    },
+    {
+      "date": "2026-03-19",
+      "imsak": "04:16",
+      "iftar": "18:24",
+      "imsakUid": "673c7b69-c654-46ea-8861-a3df518c63a4",
+      "iftarUid": "cf763342-cec3-4538-9c1e-1b2088174de8"
+    }
+  ],
+  "events": [
+    {
+      "uid": "a1aac01b-d4de-4b8b-a34f-ec5bafd16382",
+      "title": "Kadir Gecesi – Nacht der Bestimmung",
+      "date": "2026-03-16",
+      "time": null,
+      "endDate": "2026-03-17",
+      "verified": true,
+      "description": "IGMG-Datumsangabe: 16. März. Die Nacht beginnt am Abend. Keine feste Gebetsuhrzeit vorgegeben."
+    },
+    {
+      "uid": "95278060-cdf1-4863-bedd-998134584eb4",
+      "title": "Arefe – Letzter Fasttag",
+      "date": "2026-03-19",
+      "time": null,
+      "endDate": "2026-03-20",
+      "verified": true,
+      "description": "Letzter Fasttag laut IGMG Berlin."
+    },
+    {
+      "uid": "96609da5-b868-4917-9296-f2ebe12395d6",
+      "title": "Ramazan Bayram Namazi",
+      "date": "2026-03-20",
+      "time": "07:24",
+      "endDate": null,
+      "verified": false,
+      "description": "Die Uhrzeit 07:24 stammt aus der bisherigen Projektdatei und ist durch den verlinkten IGMG-Kalender nicht belegt. Bitte bei der örtlichen Moschee bestätigen."
+    },
+    {
+      "uid": "9a6953d9-c6d2-4039-95ee-4088b22de5e1",
+      "title": "Hinweis: Morgen 07:24 Ramazan Bayram Namazi",
+      "date": "2026-03-19",
+      "time": "18:00",
+      "endDate": null,
+      "verified": false,
+      "description": "Die Uhrzeit 07:24 stammt aus der bisherigen Projektdatei und ist durch den verlinkten IGMG-Kalender nicht belegt. Bitte bei der örtlichen Moschee bestätigen."
+    },
+    {
+      "uid": "dafe44fe-9fa7-470b-a2e6-a3e376378849",
+      "title": "★ RAMAZAN BAYRAMI (1.–3. Tag) ★",
+      "date": "2026-03-20",
+      "time": null,
+      "endDate": "2026-03-23",
+      "verified": true,
+      "description": "Ramazan Bayramı: 20. bis einschließlich 22. März 2026. Erster Festtag laut IGMG Berlin: 20. März."
+    }
+  ]
+}
