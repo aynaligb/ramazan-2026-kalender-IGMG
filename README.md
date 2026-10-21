@@ -32,10 +32,10 @@ ignorieren oder individuell behandeln; nach Einrichtung überprüfen.
 
 ## Abonnieren oder importieren
 
-Die unveränderte HTTPS-Adresse für Abonnements:
+Die dauerhafte, jahresunabhängige HTTPS-Adresse für neue Abonnements:
 
 ```text
-https://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/Ramazan_2026_Berlin_IGMG.ics
+https://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/berlin-ramazan.ics
 ```
 
 - **Apple:** [Kalenderabonnement hinzufügen](https://support.apple.com/de-de/102301).
@@ -45,9 +45,13 @@ https://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads
 - **Outlook im Web:** Kalender hinzufügen → Vom Web abonnieren.
   [Microsoft-Anleitung](https://support.microsoft.com/de-de/outlook/import-or-subscribe-to-a-calendar-in-outlook-com-or-outlook-on-the-web).
 
-Ein Abo kann spätere Korrekturen dieser Ausgabe übernehmen; die App bestimmt
-das Aktualisierungsintervall. Ein Import der heruntergeladenen ICS-Datei ist eine
-einmalige Kopie. Die Einrichtung in echten Apple-, Google- und Outlook-Kalendern
+Das dauerhafte Abo übernimmt Korrekturen und neue Jahresausgaben, sobald diese
+geprüft veröffentlicht werden. Die App bestimmt das Aktualisierungsintervall.
+Die bisherige Adresse `Ramazan_2026_Berlin_IGMG.ics` bleibt als Jahresarchiv
+erhalten und wird nicht auf ein anderes Jahr umgebogen. Bestehende Nutzer
+wechseln einmalig zur neuen Abo-Adresse und entfernen das alte Abo, um doppelte
+2026-Termine zu vermeiden. Beim neuen Abo bleibt der Kalendername „Ramazan · Berlin“
+jahresunabhängig. Ein Import der heruntergeladenen Jahresdatei ist eine einmalige Kopie. Die Einrichtung in echten Apple-, Google- und Outlook-Kalendern
 ist nicht Teil der automatisierten Prüfungen.
 
 ## Lokal ansehen und prüfen
@@ -75,9 +79,14 @@ Für ein weiteres Jahr zuerst einen offiziellen, stadtspezifischen Kalender
 beschaffen und jede Zeit mit der Quelle abgleichen. Dann neue Jahresdaten mit
 neuen UIDs ergänzen und die Jahresangaben, Sondertage, Datumsgrenzen in `app.js`
 sowie die Ausgabe in `index.html` anpassen. Der Generator erzeugt den passenden
-Jahresdateinamen; bestehende Jahresdateien bleiben für Abonnenten verfügbar.
-Es gibt bewusst keine automatische Fortschreibung ungeprüfter Gebetszeiten und
-kein Versprechen, dass das 2026-Abo zukünftige Jahresausgaben enthält.
+Jahresdateinamen und aktualisiert automatisch `berlin-ramazan.ics` auf dieselbe
+freigegebene Ausgabe. Bestehende Jahresdateien bleiben unverändert verfügbar.
+Die dauerhafte Adresse bleibt jedes Jahr gleich; sie liefert die jeweils neueste
+freigegebene Ausgabe und ist kein Gesamtarchiv aller Jahre. Der Prüflauf stellt
+sicher, dass beide Dateien dieselben Termine und IDs enthalten.
+Es gibt keine automatische Ermittlung oder Fortschreibung ungeprüfter Gebetszeiten.
+Die jährliche Übernahme der offiziellen Quelldaten bleibt ein redaktioneller Schritt;
+die Bereitstellung hinter der dauerhaften Abo-Adresse geschieht beim Generieren.
 
 ## Veröffentlichung
 

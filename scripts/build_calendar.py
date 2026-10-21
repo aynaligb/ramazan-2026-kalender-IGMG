@@ -72,6 +72,11 @@ def build():
     feed = ('\r\n'.join(fold(line) for line in lines) + '\r\n').encode('utf-8')
     # Keep the original filename and all UIDs: existing subscriptions continue to work.
     (ROOT / f'Ramazan_{year}_Berlin_IGMG.ics').write_bytes(feed)
+    # This year-independent URL always serves the latest reviewed edition.
+    # Annual archive files and their existing subscriptions remain available.
+    stable_name = f'X-WR-CALNAME:Ramazan {year} · Berlin'.encode('utf-8')
+    (ROOT / 'berlin-ramazan.ics').write_bytes(
+        feed.replace(stable_name, 'X-WR-CALNAME:Ramazan · Berlin'.encode('utf-8'), 1))
     rows = []
     notes = {item['date']: item['title'].split(' – ')[0]
              for item in data['events'] if item['time'] is None and 'BAYRAMI' not in item['title']}

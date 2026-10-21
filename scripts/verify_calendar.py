@@ -58,4 +58,10 @@ for special in data['events']:
         assert 'vor Ort bestätigen' in event['SUMMARY']
 assert page.count('data-date=') == len(data['days'])
 assert f'Ramazan_{data["year"]}_Berlin_IGMG.ics' in page
+stable = (ROOT / 'berlin-ramazan.ics').read_bytes()
+assert stable == raw.replace(
+    f'X-WR-CALNAME:Ramazan {data["year"]} · Berlin'.encode('utf-8'),
+    'X-WR-CALNAME:Ramazan · Berlin'.encode('utf-8'), 1), 'Stable feed differs from reviewed edition'
+assert 'webcal://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/berlin-ramazan.ics' in page
+assert 'value="https://raw.githubusercontent.com/aynaligb/ramazan-2026-kalender-IGMG/refs/heads/main/berlin-ramazan.ics"' in page
 print(f'OK: {len(events)} unique events; CRLF, folding, timezone, alarms, dates and timetable verified.')
